@@ -1,0 +1,21 @@
+{
+	"lines.linewidth": 2.0,
+	"lines.antialiased": true,
+	"patch.linewidth": 0.5, 
+	"patch.edgecolor": "#eeeeee",
+	"legend.fancybox": false, 
+	"axes.color_cycle": [ 
+		"#348ABD", 
+		"#A60628", 
+		"#7A68A6", 
+		"#467821", 
+		"#CF4457", 
+		"#188487", 
+		"#E24A33" 
+	],
+	"axes.edgecolor": "#bcbcbc", 
+	"axes.facecolor": "#eeeeee", 
+	"axes.grid": true, 
+	"axes.labelsize": "large", 
+	"axes.titlesize": "x-large"
+} 
