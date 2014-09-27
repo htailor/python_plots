@@ -1,19 +1,14 @@
 #!/usr/bin/python
 import numpy as np
-import json
-import matplotlib
 import matplotlib.pyplot as plt
 
 '''
-	Demonstrates simple line plots using matplotlib with style settings stored in json format
+	Uses the plot styles avaliable in version 0.14
 '''
 
-
-# load settings from file
-style = json.load(open("../settings1.json"))
-
-# update matplotlib settings from file
-matplotlib.rcParams.update(style)
+# set plot style
+#plt.style.use('bmh')
+plt.style.use('ggplot')
 
 x = np.linspace(0,5,100)
 
@@ -30,7 +25,7 @@ plt.title("Plot title")
 # legend position
 plt.legend(loc="upper left")
 
-plt.savefig("line1.png")
+plt.savefig("line3.png")
 
 # uncomment below to display the plot
 # plt.show()
